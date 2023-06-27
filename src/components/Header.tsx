@@ -1,6 +1,8 @@
+import '../styles/Header.css'
+
 function Header() {
     return(
-        <header><h1>Sistema Solar</h1></header>
+        <header className="Header"><h1>Sistema Solar</h1></header>
     )
 }
 

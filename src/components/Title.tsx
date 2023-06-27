@@ -2,9 +2,7 @@ type Titleprops = {
     headline: string
 }
 
-function Title(prop: Titleprops){
-    const { headline } = prop
-    
+function Title({headline}: Titleprops){
     return(
         <h2>{headline}</h2>
     )
