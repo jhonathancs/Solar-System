@@ -1,3 +1,5 @@
+import '../styles/PlanetCard.css'
+
 type planets = {
     planetName: string,
     planetImage: string
