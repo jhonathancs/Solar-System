@@ -11,7 +11,23 @@
     border-radius: 12px;
     font-size: 2.2rem;
     margin-left: 4%;
-    margin-top: 100px;
+    margin-top: 10%;
     padding: 2%;
     width: 88.5%;
   }
+
+  [headline="Planetas"] {
+    color: blue;
+    font-size: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1.8rem;
+      margin-left: 2%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      padding: 1%;
+      width: 95%;
+    }
+}

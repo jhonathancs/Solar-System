@@ -1,6 +1,6 @@
 .header {
     align-items: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(https://images.pexels.com/photos/12207950/pexels-photo-12207950.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) , url(https://images.pexels.com/photos/12207950/pexels-photo-12207950.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: 150% auto;
     color: white;
     display: flex;

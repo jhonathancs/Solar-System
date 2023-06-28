@@ -45,3 +45,43 @@ body {
 .planet {
   margin-top: -5%;
 }
+
+.solarSystem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .PlanetCard {
+    width: 80%;
+    height: auto;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: perspective(800px) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(800px) rotateY(360deg);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .PlanetCard {
+    width: 90%;
+    height: auto;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: perspective(600px) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(600px) rotateY(360deg);
+    }
+  }
+}
