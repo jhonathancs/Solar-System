@@ -13,7 +13,9 @@ function Missions() {
     return(
         <div data-testid="missions">
             <Title headline="Missões"/>
+            <section className='Missions'>
             {missionsList}
+            </section>
         </div>
     )
 }

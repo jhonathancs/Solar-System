@@ -1,3 +1,28 @@
+
+.planet {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+}
+
+.imagem {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 700px;
+  min-width: 120px;
+}
+
+.imagem:hover {
+  cursor: pointer;
+  transform: scale(1.3) rotate(45deg);
+  transition: 0.7s;
+}
+
+
 .Mercúrio img {
     width: 34px;
   }

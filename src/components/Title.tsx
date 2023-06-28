@@ -1,10 +1,14 @@
+import '../styles/Title.css'
+
 type Titleprops = {
     headline: string
 }
 
 function Title({headline}: Titleprops){
     return(
-        <h2>{headline}</h2>
+        <div className='title'>
+            <h2>{headline}</h2>
+        </div>
     )
 }
 

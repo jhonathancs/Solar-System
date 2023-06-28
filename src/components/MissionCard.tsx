@@ -10,7 +10,7 @@ type Missions = {
 function MissionCard( missions: Missions) {
     const {name,year,country,destination} = missions
     return(
-        <div data-testid="missions">
+        <div data-testid="missions" className='MissionCard'>
             <div className="missionName">
             <p data-testid="mission-name">{name}</p>
             </div>

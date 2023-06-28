@@ -7,10 +7,15 @@ type planets = {
 
 function PlanetCard({planetName,planetImage}: planets) {
     return(
-        <div data-destida="planet-name">
-            <p>{planetName}</p>
+        <div>
+        <div data-testid={ `${planetName} imagem` }>
             <img src={planetImage} alt={`Planeta ${planetName}`} />
+            </div>
+            <div className='planet'>
+            <p>{planetName}</p>
+            </div>
         </div>
+
     )
 }
 
