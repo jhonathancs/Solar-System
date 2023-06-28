@@ -1,7 +1,14 @@
-header {
-    width: 692px;
-    height: 150px;
-    top: 101px;
-    left: 374px;
-    text-align: center;
+.header {
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(https://images.pexels.com/photos/12207950/pexels-photo-12207950.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: 150% auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 90px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    justify-content: center;
+    min-height: 100vh;
 }

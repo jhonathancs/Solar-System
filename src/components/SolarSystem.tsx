@@ -5,18 +5,18 @@ import PlanetCard from "./PlanetCard";
 import planets from '../data/planets';
 
 function SolarSystem() {
-    const listOfPlanet = planets.map(({ name, image}) => (
-        <PlanetCard key={ uuidv4() } planetName={ name } planetImage={ image } />
+    const listOfPlanet = planets.map(({ name, image}, index) => (
+        <PlanetCard key={uuidv4()} planetName={name} planetImage={image} style={{ "--i": index + 1 }} />
       ));
 
     return(
         <div className='solarSystem'>
+            <Title headline="Planetas" />
             <div data-testid="solar-system">
-                <Title headline="Planetas" />
             </div>
-            <section className='PlanetCard'>
+            <div className='PlanetCard'>
                 {listOfPlanet}
-            </section>
+            </div>
         </div>
     )
 }
