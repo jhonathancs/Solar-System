@@ -11,6 +11,8 @@ body {
   height: 220px;
   transform-style: preserve-3d;
   animation: animate 60s linear infinite;
+  margin-bottom: 6%;
+  margin-top: 12%;
 }
 
 @keyframes animate{

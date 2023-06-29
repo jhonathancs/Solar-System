@@ -1,6 +1,4 @@
 import { v4 as uuidv4 } from 'uuid';
-import "../styles/SolarSystem.css"
-import "../styles/Title.css"
 import Title from "./Title";
 import PlanetCard from "./PlanetCard";
 import planets from '../data/planets';
