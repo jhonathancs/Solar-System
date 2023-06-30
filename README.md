@@ -30,4 +30,9 @@
 ## 🧾 Features
  * Visualizar todos os planetas do sistema solar renderizados na tela;
  * Visualizar todas as cartas com informações sobre missões espaciais;
- * Pequenos Incremetos foram de autoria do desenvolvedor: ( rotação dos planetas ) 
+ * Pequenos Incremetos foram de autoria do desenvolvedor: ( rotação dos planetas )
+
+Essa aplicação simula uma visualização do Sistema Solar, bem como informações sobre diversas missões espacias que ocorreram ao longo da história.
+As imagens dos planetas e as informações das missões foram fornecidas pela Trybe.
+
+O Projeto Completo pode ser acessado neste link: https://jhonathancs.github.io/Solar-System/
