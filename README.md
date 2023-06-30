@@ -1,15 +1,12 @@
 <div align="center">
     <h2>🌎 &nbsp; S O L A R &nbsp; S Y S T E M &nbsp;☀️</h2>
 </div>
-
 <p align="center">
     <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-features">Features</a>
 </p>
-
 <br><hr>
-
 ## 📚 Project
 <p>Neste projeto foi verificado se o aluno possuia as habilidades para:<p>
 
